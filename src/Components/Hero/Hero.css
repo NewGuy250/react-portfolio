@@ -99,3 +99,14 @@
     border-radius: 40px;
   }
 }
+
+@media (max-width: 480px) {
+  .hero img {
+    width: auto;
+    margin: 0;
+  }
+
+  .hero-action {
+    flex-direction: column;
+  }
+}

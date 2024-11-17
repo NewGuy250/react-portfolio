@@ -122,3 +122,22 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 480px) {
+  .contact-left {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-left p {
+    width: 300px;
+  }
+
+  .contact-right {
+    align-items: center;
+  }
+  .contact-right input,
+  .contact-right textarea {
+    width: 350px;
+  }
+}
