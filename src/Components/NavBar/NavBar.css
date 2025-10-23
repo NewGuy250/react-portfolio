@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: space-evenly;
   margin: 1.25rem;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .nav-menu {
